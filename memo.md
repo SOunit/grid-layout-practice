@@ -32,5 +32,13 @@ grid-template-columns: 200px 150px 20%
 - child element layout
   - `grid-column-start`
   - `grid-column-end`
+    ```
+    grid-column-end: 5;
+    ```
+    - `span`
+      - takes a number of columns
+      ```
+      grid-column-end: span 2;
+      ```
   - `grid-row-start`
   - `grid-row-end`
