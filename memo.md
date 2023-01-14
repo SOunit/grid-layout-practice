@@ -1,0 +1,2 @@
+- use firefox
+- display grid
