@@ -30,15 +30,28 @@ grid-template-columns: 200px 150px 20%
       ```
 
 - child element layout
+
   - `grid-column-start`
   - `grid-column-end`
+
     ```
     grid-column-end: 5;
     ```
+
     - `span`
       - takes a number of columns
       ```
       grid-column-end: span 2;
       ```
+    - `-1`
+
+      - can always be the last column
+
+      ```
+      grid-column-end: -1;
+      ```
+
+    - can overlap if explicitly defined the overlapping position
+
   - `grid-row-start`
   - `grid-row-end`
