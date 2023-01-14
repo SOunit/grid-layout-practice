@@ -69,3 +69,15 @@ grid-template-columns: 200px 150px 20%
   ```
 
 - child element
+
+# shorthand
+
+- grid-column
+  ```
+  grid-column: 1 / -1;
+  ```
+- grid-row
+
+  ```
+  grid-row: row-2-start / span 1
+  ```
