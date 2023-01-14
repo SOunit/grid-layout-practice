@@ -28,6 +28,10 @@ grid-template-columns: 200px 150px 20%
       ```
       grid-template-rows: repeat(4, 25%);
       ```
+    - naming row
+      ```
+      grid-template-rows: [row-1-start]1fr [row-1-end row-2-start]1fr [row-2-end row-3-start]1fr;
+      ```
 
 - child element layout
 
@@ -55,3 +59,13 @@ grid-template-columns: 200px 150px 20%
 
   - `grid-row-start`
   - `grid-row-end`
+
+# naming row
+
+- template / container
+
+  ```
+  grid-template-row: [row-1-start]200px [row-1-end row-2-start]200px [row-2-end]200px;
+  ```
+
+- child element
