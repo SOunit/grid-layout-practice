@@ -1,4 +1,7 @@
 .container {
+  display: grid;
+  grid-template-columns: 200px 150px 20% 1fr;
+  grid-template-rows: 5rem 2.5rem;
 }
 
 .el1 {
@@ -9,6 +12,10 @@
 }
 .el3 {
   background-color: rgb(117, 255, 117);
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 .el4 {
   background-color: rgb(129, 129, 255);
