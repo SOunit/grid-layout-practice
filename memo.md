@@ -110,6 +110,52 @@ grid-template-columns: 200px 150px 20%
                        "footer footer footer footer";
   ```
 
-# automatic generate grid area
+# fit-content
 
--
+```
+grid-template-rows: 3.5rem auto fit-content(8rem);
+```
+
+# positioning grid element
+
+## for align elements in grid layout
+
+- justify-items
+
+  - center
+  - start
+  - end
+  - stretch(default)
+
+- align-items
+  - center
+
+## for align grid layout itself
+
+- justify-content(x-axis)
+
+  - start
+  - end
+  - stretch
+
+- align-content(y-axis)
+
+# position single element
+
+- justify-self(x)
+  - center
+  - start
+  - end
+- align-self(y)
+
+# responsive grid layout
+
+- use media-query
+
+# applying auto flow
+
+- grid-auto-rows
+  - default
+  ```
+  grid-auto-rows: auto
+  ```
