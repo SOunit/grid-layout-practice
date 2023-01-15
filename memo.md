@@ -81,3 +81,35 @@ grid-template-columns: 200px 150px 20%
   ```
   grid-row: row-2-start / span 1
   ```
+
+- grid-area
+  ```
+  grid-area: row-1-start / column-1-start / row-1-end / column-1-end
+  ```
+  ```
+  grid-area: row-1-start / 2 / row-2-end / span 3;
+  ```
+
+# gap
+
+- grid-column-gap
+- grid-row-gap
+- grid-gap
+
+# area
+
+- define template layout
+  ```
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: [row-1-start]1rem [row-1-end row-2-start]1rem [row-2-end]1rem;
+  ```
+- define area name
+  ```
+  grid-template-areas: "header header header header"
+                       ". . main main"
+                       "footer footer footer footer";
+  ```
+
+# automatic generate grid area
+
+-
