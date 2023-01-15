@@ -159,3 +159,19 @@ grid-template-rows: 3.5rem auto fit-content(8rem);
   ```
   grid-auto-rows: auto
   ```
+  - good setting
+  ```
+  grid-auto-rows: minmax(8rem, auto);
+  ```
+- grid-auto-flow
+- grid-auto-columns
+
+# auto-fill / auto-fit
+
+- grid layout
+
+  - auto-fill
+
+    ```
+    grid-template-columns: repeat(auto-fill, 10rem);
+    ```
