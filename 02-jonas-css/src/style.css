@@ -11,3 +11,21 @@
   font-size: 30px;
   font-family: sans-serif;
   color: white; }
+
+.item--1 {
+  background-color: orange; }
+
+.item--2 {
+  background-color: yellowgreen; }
+
+.item--3 {
+  background-color: blueviolet; }
+
+.item--4 {
+  background-color: palevioletred; }
+
+.item--5 {
+  background-color: royalblue; }
+
+.item--6 {
+  background-color: goldenrod; }

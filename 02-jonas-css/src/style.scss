@@ -13,4 +13,23 @@
   font-size: 30px;
   font-family: sans-serif;
   color: white;
+
+  &--1 {
+    background-color: orange;
+  }
+  &--2 {
+    background-color: yellowgreen;
+  }
+  &--3 {
+    background-color: blueviolet;
+  }
+  &--4 {
+    background-color: palevioletred;
+  }
+  &--5 {
+    background-color: royalblue;
+  }
+  &--6 {
+    background-color: goldenrod;
+  }
 }
